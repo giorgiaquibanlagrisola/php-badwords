@@ -11,20 +11,27 @@
             PHP Badwords
         </h1>
     </header>
+
     <main>
-        <form action="?" method="get">
+        <form action="./secondFile.php" method="get">
             <div>
-                <label for="paragraph">
-                    Paragrafo
-                </label>
-                <textarea name="paragraph" id="paragraph" placeholder="Inserisci qualcosa..."></textarea>
+                <div>
+                  <label for="paragraph">
+                        Paragrafo
+                    </label>  
+                </div>                
+                <textarea name="paragraph" id="paragraph" placeholder="Inserisci il paragrafo"></textarea>
             </div>
+
             <div>
-                <label for="badword">
-                    Parola da censurare
-                </label>
+                <div>
+                   <label for="badword">
+                        Parola da censurare
+                    </label> 
+                </div>                
                 <input type="text" name="badword" id="badword" placeholder="Inserire cose da censurare...">
             </div>
+
             <div>
                 <button type="submit">
                     Invia
